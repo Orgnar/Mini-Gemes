@@ -71,7 +71,7 @@ function renderCards() {
     for (let card of playerHand) {
         const cardElement = document.createElement("img");
         cardElement.className = "card";
-        cardElement.src = "/Assets/cards/" + card + ".png";
+        cardElement.src = "/Mini-Gemes/Assets/cards/" + card + ".png";
         playerCardsElement.appendChild(cardElement);
     }
 
@@ -83,7 +83,7 @@ function renderCards() {
     for (let card of dealerHand) {
         const cardElement = document.createElement("img");
         cardElement.className = "card";
-        cardElement.src = "/Assets/cards/" + card + ".png";
+        cardElement.src = "/Mini-Gemes/Assets/cards/" + card + ".png";
         dealerCardsElement.appendChild(cardElement);
     }
 
@@ -137,7 +137,7 @@ function stay() {
 
         const cardElement = document.createElement("img");
         cardElement.className = "card";
-        cardElement.src = `Assets/cards/${dealerHand[dealerHand.length - 1]}.png`;
+        cardElement.src = `/Mini-Gemes/Assets/cards/${dealerHand[dealerHand.length - 1]}.png`;
         dealerCardsElement.insertBefore(cardElement, dealerValueElement);
     }
 
