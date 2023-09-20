@@ -38,7 +38,7 @@ h3{
   display: block;
   width: 200px;
   height: 100px;
-  background: url(/Assets/dirt.png) bottom center no-repeat;
+  background: url(Mini-Gemes/Assets/dirt.png) bottom center no-repeat;
   background-size: 80%;
   position: absolute;
   bottom: -25px;
@@ -47,7 +47,7 @@ h3{
 .mole {
   width: 100%;
   height: 100%;
-  background: url(/Assets/mole.png) bottom center no-repeat;
+  background: url(Mini-Gemes/Assets/mole.png) bottom center no-repeat;
   background-size: 60%;
   position: absolute;
   top: 100px;
@@ -94,7 +94,7 @@ button{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(/Assets/background.png);
+  background: url(Mini-Gemes/Assets/background.png);
 }
 
 .outer-container{
@@ -109,7 +109,7 @@ button{
 .container {
   width: 610px;
   height: 500px;
-  background: url(/Assets/dirtbg.jpg);
+  background: url(Mini-Gemes/Assets/dirtbg.jpg);
   border: 3px solid white;
   border-radius: 20px;
 }
