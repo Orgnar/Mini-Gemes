@@ -36,7 +36,7 @@ playerChoices.forEach(function(choice) {
     const opponentChoice = generateOpponentChoice();
 
     // Change Opponent Image
-    opponentImage.src = '/Assets/' + opponentChoice + '.png';
+    opponentImage.src = '/Mini-Gemes/Assets/' + opponentChoice + '.png';
 
     // Result
     const result = assignWinner(playerChoice, opponentChoice);
